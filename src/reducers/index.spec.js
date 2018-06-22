@@ -50,4 +50,7 @@ describe('Display Reducer', () => {
   it('should handle UPDATE_DISPLAY for existing state', () => {
     expect(display('update_me', payload)).toEqual('Hello!');
   });
+  it('should handle UPDATE_DISPLAY to clear the display', () => {
+    expect(display('update_me', { type: 'UPDATE_DISPLAY', text: '' })).toEqual('');
+  });
 });
