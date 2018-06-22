@@ -10,6 +10,17 @@ button {
 }
 
 div#display {
-  padding: 10px;
+  padding: 15px;
   border: 1px solid black;
+  text-align: right;
+  font-size: 1.5em;
+  box-sizing: border-box;
+}
+
+div#operators {
+  margin: 15px 0;
+}
+
+button.clearbutton {
+  width: 500px;
 }

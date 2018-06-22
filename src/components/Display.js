@@ -3,7 +3,7 @@ import React from 'react';
 const Display = () => {
   return (
     <div id="display">
-      <p>display goes here</p>
+      <span id="displaytext">display goes here</span>
     </div>
   )
 }

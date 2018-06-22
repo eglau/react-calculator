@@ -22,6 +22,7 @@ const Buttons = () => {
           })
         }
       </div>
+      <Button className="clearbutton" display={'CLEAR'} />
     </div>
   )
 }
