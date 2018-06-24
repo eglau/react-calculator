@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Display = () => {
+const Display = (props) => {
   return (
     <div id="display">
-      <span id="displaytext">display goes here</span>
+      <span id="displaytext">{ props.text }</span>
     </div>
   )
 }

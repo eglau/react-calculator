@@ -1,19 +1,10 @@
 import * as actions from './index';
 
-describe('Number press', () => {
-  it('should create NUMBER action', () => {
-    expect(actions.pressNumber('9')).toEqual({
-      type: 'NUMBER',
-      number: '9'
-    });
-  });
-});
-
-describe('Operator press', () => {
-  it('should create OPERATOR action', () => {
-    expect(actions.pressOperator('+')).toEqual({
-      type: 'OPERATOR',
-      operator: '+'
+describe('Button press', () => {
+  it('should create PRESS_BUTTON action', () => {
+    expect(actions.pressButton('9')).toEqual({
+      type: 'PRESS_BUTTON',
+      value: '9'
     });
   });
 });

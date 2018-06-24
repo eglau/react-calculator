@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Display from './Display';
+import DisplayContainer from '../containers/DisplayContainer';
 import Buttons from './Buttons';
 
 const Calculator = () => {
   return (
     <div>
-      <Display />
+      <DisplayContainer />
       <Buttons />
     </div>
   )

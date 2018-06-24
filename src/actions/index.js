@@ -1,14 +1,7 @@
-export const pressNumber = (number) => {
+export const pressButton = (value) => {
   return {
-    type: 'NUMBER',
-    number
-  };
-};
-
-export const pressOperator = (operator) => {
-  return {
-    type: 'OPERATOR',
-    operator
+    type: 'PRESS_BUTTON',
+    value
   };
 };
 
