@@ -5,7 +5,7 @@ import Display from '../components/Display';
 
 const mapStateToProps = (state) => {
   return {
-    text: state.display
+    text: state.input.join('')
   };
 }
 

@@ -1,11 +1,7 @@
 import { combineReducers } from 'redux';
 
-import numbers from './numbers';
-import operators from './operators';
-import display from './display';
+import input from './input';
 
 export default combineReducers({
-  numbers,
-  operators,
-  display
-})
+  input
+});

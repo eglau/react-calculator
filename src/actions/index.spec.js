@@ -11,9 +11,9 @@ describe('Button press', () => {
 
 describe('Display update', () => {
   it('should create UPDATE_DISPLAY action', () => {
-    expect(actions.updateDisplay('1337')).toEqual({
+    expect(actions.updateDisplay('X')).toEqual({
       type: 'UPDATE_DISPLAY',
-      text: '1337'
+      value: 'X'
     });
   });
 });

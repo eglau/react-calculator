@@ -27,7 +27,7 @@ const Buttons = () => {
           })
         }
       </div>
-      <Button className="clearbutton" display={'CLEAR'} />
+      <ButtonContainer className="clearbutton" display={'CLEAR'} />
     </div>
   )
 }

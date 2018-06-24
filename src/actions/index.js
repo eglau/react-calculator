@@ -5,9 +5,9 @@ export const pressButton = (value) => {
   };
 };
 
-export const updateDisplay = (text) => {
+export const updateDisplay = (value) => {
   return {
     type: 'UPDATE_DISPLAY',
-    text
+    value
   };
 };

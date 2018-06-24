@@ -12,7 +12,6 @@ const mapStateToProps = (state, props) => {
 const mapDispatchToProps = (dispatch, props) => {
   return {
     onClick: () => {
-      //dispatch(pressNumber(props.display))
       dispatch(updateDisplay(props.display))
     }
   };
