@@ -47,9 +47,9 @@ const input = (state = [], action) => {
         case 'CLEAR':
           return [];
         case '=':
-          return calculateResult(state);
+          return calculateResult(state.slice());
         default:
-          return updateInput(state, action.value);
+          return updateInput(state.slice(), action.value);
       }
     default:
       return state;
