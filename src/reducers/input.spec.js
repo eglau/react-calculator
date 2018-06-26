@@ -1,5 +1,5 @@
 import input from './input';
-/*
+
 // Initialize display
 describe('Display Reducer', () => {
   it('should handle initial state', () => {
@@ -43,7 +43,7 @@ describe('Display Reducer', () => {
     expect(input(undefined, payload)).toEqual([]);
   });
 });
-*/
+
 // Calculate display
 describe('Display Reducer', () => {
   const payload = {
